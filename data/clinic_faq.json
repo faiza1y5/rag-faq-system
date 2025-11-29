@@ -1,0 +1,162 @@
+﻿{
+    "clinic_information": {
+      "basic_info": {
+        "name": "HealthCare Plus Clinic",
+        "address": "123 Medical Drive, Suite 100, Downtown Area",
+        "phone": "+1-555-123-4567",
+        "email": "info@healthcareplus.com",
+        "website": "www.healthcareplus.com"
+      },
+      "hours_of_operation": {
+        "weekdays": "Monday to Friday: 8:00 AM - 6:00 PM",
+        "saturday": "Saturday: 9:00 AM - 2:00 PM",
+        "sunday": "Sunday: Closed",
+        "holidays": "Closed on major holidays",
+        "emergency": "For after-hours emergencies, call 911 or visit the nearest ER"
+      },
+      "location_details": {
+        "directions": "Located in the downtown medical district, two blocks from City Hall. Turn left at Main Street and we're on the right side.",
+        "parking": "Free parking is available behind the main building. Enter from Elm Street. We also have handicap-accessible parking spaces near the main entrance.",
+        "public_transport": "Served by bus routes 12, 45, and 67. The nearest metro station is Medical Center Station (5-minute walk).",
+        "accessibility": "Our facility is fully wheelchair accessible with ramps and elevators. We have accessible restrooms and examination rooms."
+      }
+    },
+    "insurance_and_billing": {
+      "accepted_insurance": {
+        "major_providers": [
+          "Blue Cross Blue Shield",
+          "Aetna",
+          "Cigna",
+          "UnitedHealthcare",
+          "Humana",
+          "Medicare",
+          "Medicaid"
+        ],
+        "policy": "We accept most major insurance plans. Please call us to verify if your specific plan is accepted.",
+        "verification": "We recommend calling your insurance provider before your visit to verify coverage and benefits."
+      },
+      "payment_methods": {
+        "accepted": [
+          "Cash",
+          "Credit cards (Visa, Mastercard, American Express, Discover)",
+          "Debit cards",
+          "Health Savings Account (HSA)",
+          "Flexible Spending Account (FSA)",
+          "Care Credit"
+        ],
+        "payment_plans": "We offer payment plans for eligible patients. Please speak with our billing department to discuss options."
+      },
+      "billing_policies": {
+        "copay": "Copays are due at the time of service. Please bring your insurance card and photo ID.",
+        "self_pay": "Self-pay patients receive a 15% discount when paying in full at the time of service.",
+        "billing_questions": "For billing inquiries, contact our billing department at +1-555-123-4568 (Mon-Fri, 9 AM - 5 PM).",
+        "statements": "Billing statements are sent monthly. You can also access your account online through our patient portal."
+      },
+      "cost_estimates": {
+        "general_consultation": "$150-200 (without insurance)",
+        "follow_up_visit": "$100-150 (without insurance)",
+        "physical_exam": "$200-300 (without insurance)",
+        "specialist_consultation": "$250-400 (without insurance)",
+        "note": "Actual costs may vary. Contact our billing department for specific pricing."
+      }
+    },
+    "appointment_information": {
+      "appointment_types": {
+        "general_consultation": {
+          "duration": "30 minutes",
+          "description": "For general health concerns, routine checkups, or minor illnesses",
+          "examples": ["Cold and flu symptoms", "Minor injuries", "Routine health concerns"]
+        },
+        "follow_up": {
+          "duration": "15 minutes",
+          "description": "For follow-up on previous conditions or test results",
+          "examples": ["Medication adjustment", "Progress check", "Test result review"]
+        },
+        "physical_exam": {
+          "duration": "45 minutes",
+          "description": "Comprehensive physical examination and health assessment",
+          "examples": ["Annual physical", "Sports physical", "Pre-employment physical"]
+        },
+        "specialist_consultation": {
+          "duration": "60 minutes",
+          "description": "Detailed consultation for complex or specialized health issues",
+          "examples": ["Chronic condition management", "Complex diagnosis", "Treatment planning"]
+        }
+      },
+      "scheduling": {
+        "how_to_schedule": "You can schedule appointments by calling +1-555-123-4567, through our website, or via our mobile app.",
+        "online_booking": "24/7 online booking available at www.healthcareplus.com/book",
+        "same_day": "Same-day appointments may be available for urgent concerns. Call us in the morning for best availability.",
+        "advance_booking": "We recommend booking 1-2 weeks in advance for routine appointments.",
+        "preferred_times": "Morning appointments (8-10 AM) and late afternoon appointments (4-6 PM) fill up quickly."
+      },
+      "cancellation_policy": {
+        "notice_required": "Please provide at least 24 hours notice for cancellations or rescheduling.",
+        "late_cancellation_fee": "Cancellations with less than 24 hours notice may incur a $50 fee.",
+        "no_show_fee": "No-show appointments will be charged a $75 fee.",
+        "how_to_cancel": "Cancel or reschedule by calling +1-555-123-4567 or through the patient portal.",
+        "emergency_exception": "Emergency situations are handled on a case-by-case basis."
+      },
+      "late_arrival_policy": {
+        "policy": "Please arrive 15 minutes before your scheduled appointment time.",
+        "late_arrival": "If you arrive more than 15 minutes late, we may need to reschedule your appointment.",
+        "check_in": "Check in at the front desk with your insurance card and ID.",
+        "first_time_patients": "First-time patients should arrive 30 minutes early to complete paperwork."
+      }
+    },
+    "visit_preparation": {
+      "what_to_bring": {
+        "required": [
+          "Photo ID (driver's license or passport)",
+          "Insurance card",
+          "List of current medications",
+          "List of known allergies"
+        ],
+        "recommended": [
+          "Previous medical records (if from another provider)",
+          "List of questions or concerns",
+          "Payment method for copay",
+          "Completed patient forms (available on website)"
+        ]
+      },
+      "first_visit": {
+        "arrival_time": "Arrive 30 minutes early to complete registration and paperwork.",
+        "paperwork": "Download and complete forms from our website before your visit to save time.",
+        "medical_history": "Be prepared to discuss your complete medical history, including family history.",
+        "current_medications": "Bring a list of all medications, supplements, and vitamins you currently take.",
+        "insurance_verification": "We'll verify your insurance coverage when you check in."
+      },
+      "before_appointment": {
+        "fasting": "Some tests require fasting. We'll inform you in advance if this is necessary.",
+        "medications": "Continue taking your regular medications unless instructed otherwise.",
+        "questions": "Write down any questions or concerns to discuss with your provider.",
+        "symptoms": "Keep track of any symptoms, including when they started and what makes them better or worse."
+      }
+    },
+    "covid19_protocols": {
+      "current_policies": {
+        "masking": "Masks are optional but recommended in our waiting areas and exam rooms.",
+        "screening": "Temperature checks may be conducted at entry during flu season or outbreaks.",
+        "sick_policy": "If you have COVID-19 symptoms, please call ahead so we can arrange appropriate precautions.",
+        "vaccination": "We offer COVID-19 vaccinations. Call to schedule or check for walk-in availability."
+      },
+      "telehealth": {
+        "availability": "Telehealth appointments available for appropriate conditions.",
+        "how_to_schedule": "Select 'telehealth' option when booking online or mention it when calling.",
+        "requirements": "You'll need a smartphone, tablet, or computer with camera and internet connection.",
+        "suitable_for": "Follow-ups, medication management, minor concerns, mental health visits."
+      }
+    },
+    "common_questions": {
+      "new_patients": "Yes, we are accepting new patients. Call +1-555-123-4567 to schedule your first appointment.",
+      "walk_ins": "We accept walk-ins based on availability, but scheduled appointments receive priority. Call ahead to check wait times.",
+      "prescriptions": "Prescription refills can be requested through our patient portal, by phone, or during your appointment.",
+      "test_results": "Most test results are available within 3-5 business days. We'll call with results or you can check the patient portal.",
+      "referrals": "We can provide referrals to specialists when medically necessary. Discuss with your provider during your visit.",
+      "medical_records": "Request medical records through our patient portal or by calling +1-555-123-4570. There may be a processing fee.",
+      "patient_portal": "Register for our secure patient portal at www.healthcareplus.com/portal to access records, results, and more.",
+      "immunizations": "We provide routine immunizations and travel vaccines. Call to check availability and schedule.",
+      "lab_services": "On-site laboratory services available. Most tests performed same-day with quick turnaround.",
+      "languages": "We have staff fluent in Spanish, Mandarin, and Hindi. Interpreters available for other languages."
+    }
+  }
