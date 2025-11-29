@@ -13,10 +13,18 @@ class Settings(BaseSettings):
     API_HOST: str = "0.0.0.0"
     API_PORT: int = 8000
     
-    # LLM
-    LLM_PROVIDER: Literal["anthropic", "openai"] = "anthropic"
+    # LLM Provider (choose: anthropic, openai, or ollama)
+    LLM_PROVIDER: Literal["anthropic", "openai", "ollama"] = "anthropic"
+    
+    # Anthropic Configuration
     ANTHROPIC_API_KEY: str = ""
+    
+    # OpenAI Configuration
     OPENAI_API_KEY: str = ""
+    
+    # Ollama Configuration (local, free)
+    OLLAMA_URL: str = "http://localhost:11434/api/generate"
+    OLLAMA_MODEL: str = "llama3.2"
     
     # Embeddings
     EMBEDDING_MODEL: str = "all-MiniLM-L6-v2"
